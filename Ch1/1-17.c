@@ -22,11 +22,6 @@ int main () {
     } else {
         int *seq;
         seq = (int *)calloc(m + 1, sizeof(int));
-
-        // 初始化
-        for (int i = 0; i <= m; i++) {
-            seq[i] = 0;
-        }
         seq[k - 1] = 1;
 
         // 递归求出前 m 项的值
