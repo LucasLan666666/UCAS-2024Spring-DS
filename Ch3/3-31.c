@@ -10,7 +10,7 @@
 #define FALSE 0
 #define OVERFLOW 1
 #define FRONT 1
-#define REAR 1
+#define REAR 0
 
 typedef int QElemType;
 typedef int Status;
@@ -110,7 +110,6 @@ int main() {
     }
     while (DeQueue(Q, pc_front, FRONT) != ERROR) {
         if (DeQueue(Q, pc_rear, REAR) == ERROR) {
-            status = OK;
             break;
         }
         if (*pc_front != *pc_rear) {
