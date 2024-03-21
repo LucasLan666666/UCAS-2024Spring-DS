@@ -5,15 +5,15 @@
  * 取主串 S 第 i 个位置
  * 长度为 len 的子串给sub
  */
-Status SubString(char* sub, const char* S, int i, int len) {
-    if (i < 0 || i + len > strlen(S)) {
+Status SubString(String sub, String S, int i, int len) {
+    if (i < 1 || i + len - 1> S[0]) {
         return ERROR;
     }
     strncpy(sub, S + i, len);
-    sub[len] = '\0';
+    sub[0] = len;
+    sub[len + 1] = '\0';
     return OK;
 }
-
 
 /**
  * 查找子串位置(用串的其他操作实现)
