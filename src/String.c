@@ -6,7 +6,7 @@
  * 长度为 len 的子串给sub
  */
 Status SubString(String sub, String S, int i, int len) {
-    if (i < 1 || i + len - 1> S[0]) {
+    if (i < 1 || i + len - 1 > S[0]) {
         return ERROR;
     }
     strncpy(sub, S + i, len);
