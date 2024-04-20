@@ -9,5 +9,6 @@
 typedef int ElemType;
 typedef int QElemType;
 typedef int SElemType;
+typedef int TElemType;
 typedef int Status;
 typedef char *String;
