@@ -1,3 +1,3 @@
-# UCAS-2024Spring-DS-OJ
+# UCAS-2024Spring-DS
 
-国科大2024春 数据结构OJ习题
+国科大 2024 春 数据结构 OJ 习题
